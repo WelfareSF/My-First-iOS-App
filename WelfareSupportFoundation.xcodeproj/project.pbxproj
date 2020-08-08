@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		492B9DE6F92025A3BB01B571 /* Pods_Welfar_eSupport_Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10013B61C482F674B28F355E /* Pods_Welfar_eSupport_Foundation.framework */; };
+		C329C94C24C26530003A2752 /* only_diamond-removebg.png in Resources */ = {isa = PBXBuildFile; fileRef = C329C94B24C26530003A2752 /* only_diamond-removebg.png */; };
+		C32ACA7024AFE0C6007D4F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32ACA6F24AFE0C6007D4F5E /* AppDelegate.swift */; };
+		C32ACA7224AFE0C6007D4F5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32ACA7124AFE0C6007D4F5E /* SceneDelegate.swift */; };
+		C32ACA7424AFE0C6007D4F5E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32ACA7324AFE0C6007D4F5E /* WelcomeViewController.swift */; };
+		C32ACA7924AFE0C8007D4F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32ACA7824AFE0C8007D4F5E /* Assets.xcassets */; };
+		C32ACA7C24AFE0C8007D4F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32ACA7A24AFE0C8007D4F5E /* LaunchScreen.storyboard */; };
+		C32ACA8524AFE62C007D4F5E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32ACA8424AFE62C007D4F5E /* SignUpViewController.swift */; };
+		C32ACA8724AFE64F007D4F5E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32ACA8624AFE64F007D4F5E /* LoginViewController.swift */; };
+		C32ACA8924AFE676007D4F5E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32ACA8824AFE676007D4F5E /* HomeViewController.swift */; };
+		C32ACA8C24AFF6C2007D4F5E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32ACA8B24AFF6C2007D4F5E /* Utilities.swift */; };
+		C32ACA8E24B004B4007D4F5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C32ACA8D24B004B4007D4F5E /* GoogleService-Info.plist */; };
+		C32ACA9024B41C17007D4F5E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32ACA8F24B41C17007D4F5E /* Constants.swift */; };
+		C350454E24B7C9FC000BF2C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C350454C24B7C9FB000BF2C4 /* Main.storyboard */; };
+		C350455224B92412000BF2C4 /* logo_white_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C350455124B92411000BF2C4 /* logo_white_background.jpg */; };
+		C3732E9424C7981600EC273C /* Stormy New York City.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3732E9324C7981600EC273C /* Stormy New York City.jpg */; };
+		C3732E9824CBEE8200EC273C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3732E9724CBEE8200EC273C /* ProfileViewController.swift */; };
+		C3732E9C24D114C100EC273C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3732E9A24D114C100EC273C /* Assets.xcassets */; };
+		C382266324D5047B009E4ADE /* ThroughOrganizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C382266224D5047B009E4ADE /* ThroughOrganizationViewController.swift */; };
+		C398763924C283CF0095D034 /* 0bacf62a4bd456d02d02c6b8a5c98f67.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C398763824C283CE0095D034 /* 0bacf62a4bd456d02d02c6b8a5c98f67.jpg */; };
+		C398763B24C3C7DF0095D034 /* 201-2012159_maps-clipart-map-pin-google-maps-pin-transparent.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C398763A24C3C7DF0095D034 /* 201-2012159_maps-clipart-map-pin-google-maps-pin-transparent.png.jpeg */; };
+		C398763D24C3CB2A0095D034 /* pin-removebg.png in Resources */ = {isa = PBXBuildFile; fileRef = C398763C24C3CB290095D034 /* pin-removebg.png */; };
+		C398763F24C4EC050095D034 /* LogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C398763E24C4EC050095D034 /* LogoViewController.swift */; };
+		C398764124C4FE5E0095D034 /* logobackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C398764024C4FE5E0095D034 /* logobackground.png */; };
+		C398764324C556FC0095D034 /* AnnotationPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C398764224C556FC0095D034 /* AnnotationPin.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10013B61C482F674B28F355E /* Pods_Welfar_eSupport_Foundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Welfar_eSupport_Foundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		220BB6B54DA687E5A8DD43C8 /* Pods-Welfar eSupport Foundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Welfar eSupport Foundation.debug.xcconfig"; path = "Target Support Files/Pods-Welfar eSupport Foundation/Pods-Welfar eSupport Foundation.debug.xcconfig"; sourceTree = "<group>"; };
+		C329C94B24C26530003A2752 /* only_diamond-removebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "only_diamond-removebg.png"; sourceTree = "<group>"; };
+		C32ACA6C24AFE0C6007D4F5E /* Welfare Support Foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Welfare Support Foundation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32ACA6F24AFE0C6007D4F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C32ACA7124AFE0C6007D4F5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C32ACA7324AFE0C6007D4F5E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		C32ACA7824AFE0C8007D4F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32ACA7B24AFE0C8007D4F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C32ACA7D24AFE0C8007D4F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32ACA8424AFE62C007D4F5E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C32ACA8624AFE64F007D4F5E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C32ACA8824AFE676007D4F5E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C32ACA8B24AFF6C2007D4F5E /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		C32ACA8D24B004B4007D4F5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C32ACA8F24B41C17007D4F5E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C350454D24B7C9FB000BF2C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C350455124B92411000BF2C4 /* logo_white_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_white_background.jpg; sourceTree = "<group>"; };
+		C3732E9324C7981600EC273C /* Stormy New York City.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Stormy New York City.jpg"; path = "../../../../Downloads/Stormy New York City.jpg"; sourceTree = "<group>"; };
+		C3732E9724CBEE8200EC273C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C3732E9A24D114C100EC273C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C382266224D5047B009E4ADE /* ThroughOrganizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThroughOrganizationViewController.swift; sourceTree = "<group>"; };
+		C398763824C283CE0095D034 /* 0bacf62a4bd456d02d02c6b8a5c98f67.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0bacf62a4bd456d02d02c6b8a5c98f67.jpg; sourceTree = "<group>"; };
+		C398763A24C3C7DF0095D034 /* 201-2012159_maps-clipart-map-pin-google-maps-pin-transparent.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "201-2012159_maps-clipart-map-pin-google-maps-pin-transparent.png.jpeg"; sourceTree = "<group>"; };
+		C398763C24C3CB290095D034 /* pin-removebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin-removebg.png"; sourceTree = "<group>"; };
+		C398763E24C4EC050095D034 /* LogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoViewController.swift; sourceTree = "<group>"; };
+		C398764024C4FE5E0095D034 /* logobackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logobackground.png; sourceTree = "<group>"; };
+		C398764224C556FC0095D034 /* AnnotationPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationPin.swift; sourceTree = "<group>"; };
+		DEC0C74901DAC45865558D60 /* Pods-Welfar eSupport Foundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Welfar eSupport Foundation.release.xcconfig"; path = "Target Support Files/Pods-Welfar eSupport Foundation/Pods-Welfar eSupport Foundation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32ACA6924AFE0C6007D4F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492B9DE6F92025A3BB01B571 /* Pods_Welfar_eSupport_Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14BFF7B2F1A37C7A7AB8F128 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				220BB6B54DA687E5A8DD43C8 /* Pods-Welfar eSupport Foundation.debug.xcconfig */,
+				DEC0C74901DAC45865558D60 /* Pods-Welfar eSupport Foundation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		39D911FDD422008AE048E20E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10013B61C482F674B28F355E /* Pods_Welfar_eSupport_Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C32ACA6324AFE0C6007D4F5E = {
+			isa = PBXGroup;
+			children = (
+				C3732E9A24D114C100EC273C /* Assets.xcassets */,
+				C32ACA6E24AFE0C6007D4F5E /* Welfar eSupport Foundation */,
+				C32ACA6D24AFE0C6007D4F5E /* Products */,
+				14BFF7B2F1A37C7A7AB8F128 /* Pods */,
+				39D911FDD422008AE048E20E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C32ACA6D24AFE0C6007D4F5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32ACA6C24AFE0C6007D4F5E /* Welfare Support Foundation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32ACA6E24AFE0C6007D4F5E /* Welfar eSupport Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				C32ACA8A24AFF65B007D4F5E /* Helpers */,
+				C32ACA6F24AFE0C6007D4F5E /* AppDelegate.swift */,
+				C32ACA7124AFE0C6007D4F5E /* SceneDelegate.swift */,
+				C32ACA8324AFE590007D4F5E /* View Controllers */,
+				C32ACA7824AFE0C8007D4F5E /* Assets.xcassets */,
+				C350454C24B7C9FB000BF2C4 /* Main.storyboard */,
+				C398763C24C3CB290095D034 /* pin-removebg.png */,
+				C398764024C4FE5E0095D034 /* logobackground.png */,
+				C3732E9324C7981600EC273C /* Stormy New York City.jpg */,
+				C398763A24C3C7DF0095D034 /* 201-2012159_maps-clipart-map-pin-google-maps-pin-transparent.png.jpeg */,
+				C398763824C283CE0095D034 /* 0bacf62a4bd456d02d02c6b8a5c98f67.jpg */,
+				C329C94B24C26530003A2752 /* only_diamond-removebg.png */,
+				C350455124B92411000BF2C4 /* logo_white_background.jpg */,
+				C32ACA7A24AFE0C8007D4F5E /* LaunchScreen.storyboard */,
+				C32ACA8D24B004B4007D4F5E /* GoogleService-Info.plist */,
+				C32ACA7D24AFE0C8007D4F5E /* Info.plist */,
+			);
+			path = "Welfar eSupport Foundation";
+			sourceTree = "<group>";
+		};
+		C32ACA8324AFE590007D4F5E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C32ACA7324AFE0C6007D4F5E /* WelcomeViewController.swift */,
+				C32ACA8424AFE62C007D4F5E /* SignUpViewController.swift */,
+				C32ACA8624AFE64F007D4F5E /* LoginViewController.swift */,
+				C32ACA8824AFE676007D4F5E /* HomeViewController.swift */,
+				C398763E24C4EC050095D034 /* LogoViewController.swift */,
+				C3732E9724CBEE8200EC273C /* ProfileViewController.swift */,
+				C398764224C556FC0095D034 /* AnnotationPin.swift */,
+				C382266224D5047B009E4ADE /* ThroughOrganizationViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C32ACA8A24AFF65B007D4F5E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C32ACA8B24AFF6C2007D4F5E /* Utilities.swift */,
+				C32ACA8F24B41C17007D4F5E /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32ACA6B24AFE0C6007D4F5E /* Welfar eSupport Foundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32ACA8024AFE0C8007D4F5E /* Build configuration list for PBXNativeTarget "Welfar eSupport Foundation" */;
+			buildPhases = (
+				7A0367F7E0BCE8729B1EC59A /* [CP] Check Pods Manifest.lock */,
+				C32ACA6824AFE0C6007D4F5E /* Sources */,
+				C32ACA6924AFE0C6007D4F5E /* Frameworks */,
+				C32ACA6A24AFE0C6007D4F5E /* Resources */,
+				7157A3A96EBFBC7935DF5DE9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Welfar eSupport Foundation";
+			productName = "Welfar eSupport Foundation";
+			productReference = C32ACA6C24AFE0C6007D4F5E /* Welfare Support Foundation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32ACA6424AFE0C6007D4F5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Rushil;
+				TargetAttributes = {
+					C32ACA6B24AFE0C6007D4F5E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = C32ACA6724AFE0C6007D4F5E /* Build configuration list for PBXProject "WelfareSupportFoundation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32ACA6324AFE0C6007D4F5E;
+			productRefGroup = C32ACA6D24AFE0C6007D4F5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32ACA6B24AFE0C6007D4F5E /* Welfar eSupport Foundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32ACA6A24AFE0C6007D4F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32ACA7C24AFE0C8007D4F5E /* LaunchScreen.storyboard in Resources */,
+				C32ACA8E24B004B4007D4F5E /* GoogleService-Info.plist in Resources */,
+				C398763924C283CF0095D034 /* 0bacf62a4bd456d02d02c6b8a5c98f67.jpg in Resources */,
+				C3732E9424C7981600EC273C /* Stormy New York City.jpg in Resources */,
+				C398764124C4FE5E0095D034 /* logobackground.png in Resources */,
+				C350455224B92412000BF2C4 /* logo_white_background.jpg in Resources */,
+				C3732E9C24D114C100EC273C /* Assets.xcassets in Resources */,
+				C32ACA7924AFE0C8007D4F5E /* Assets.xcassets in Resources */,
+				C329C94C24C26530003A2752 /* only_diamond-removebg.png in Resources */,
+				C398763B24C3C7DF0095D034 /* 201-2012159_maps-clipart-map-pin-google-maps-pin-transparent.png.jpeg in Resources */,
+				C350454E24B7C9FC000BF2C4 /* Main.storyboard in Resources */,
+				C398763D24C3CB2A0095D034 /* pin-removebg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7157A3A96EBFBC7935DF5DE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Welfar eSupport Foundation/Pods-Welfar eSupport Foundation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Welfar eSupport Foundation/Pods-Welfar eSupport Foundation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Welfar eSupport Foundation/Pods-Welfar eSupport Foundation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A0367F7E0BCE8729B1EC59A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Welfar eSupport Foundation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32ACA6824AFE0C6007D4F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32ACA7424AFE0C6007D4F5E /* WelcomeViewController.swift in Sources */,
+				C32ACA7024AFE0C6007D4F5E /* AppDelegate.swift in Sources */,
+				C32ACA8C24AFF6C2007D4F5E /* Utilities.swift in Sources */,
+				C32ACA8524AFE62C007D4F5E /* SignUpViewController.swift in Sources */,
+				C32ACA8724AFE64F007D4F5E /* LoginViewController.swift in Sources */,
+				C398763F24C4EC050095D034 /* LogoViewController.swift in Sources */,
+				C3732E9824CBEE8200EC273C /* ProfileViewController.swift in Sources */,
+				C382266324D5047B009E4ADE /* ThroughOrganizationViewController.swift in Sources */,
+				C398764324C556FC0095D034 /* AnnotationPin.swift in Sources */,
+				C32ACA7224AFE0C6007D4F5E /* SceneDelegate.swift in Sources */,
+				C32ACA8924AFE676007D4F5E /* HomeViewController.swift in Sources */,
+				C32ACA9024B41C17007D4F5E /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C32ACA7A24AFE0C8007D4F5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32ACA7B24AFE0C8007D4F5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C350454C24B7C9FB000BF2C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C350454D24B7C9FB000BF2C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C32ACA7E24AFE0C8007D4F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C32ACA7F24AFE0C8007D4F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32ACA8124AFE0C8007D4F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220BB6B54DA687E5A8DD43C8 /* Pods-Welfar eSupport Foundation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z569G26HB4;
+				INFOPLIST_FILE = "Welfar eSupport Foundation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rushilsrirambhatla.Welfare-Support-Foundation";
+				PRODUCT_NAME = "Welfare Support Foundation";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32ACA8224AFE0C8007D4F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC0C74901DAC45865558D60 /* Pods-Welfar eSupport Foundation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z569G26HB4;
+				INFOPLIST_FILE = "Welfar eSupport Foundation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rushilsrirambhatla.Welfare-Support-Foundation";
+				PRODUCT_NAME = "Welfare Support Foundation";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32ACA6724AFE0C6007D4F5E /* Build configuration list for PBXProject "WelfareSupportFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32ACA7E24AFE0C8007D4F5E /* Debug */,
+				C32ACA7F24AFE0C8007D4F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32ACA8024AFE0C8007D4F5E /* Build configuration list for PBXNativeTarget "Welfar eSupport Foundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32ACA8124AFE0C8007D4F5E /* Debug */,
+				C32ACA8224AFE0C8007D4F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C32ACA6424AFE0C6007D4F5E /* Project object */;
+}

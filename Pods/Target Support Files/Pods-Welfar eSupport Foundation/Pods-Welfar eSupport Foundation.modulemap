@@ -1,0 +1,6 @@
+framework module Pods_Welfar_eSupport_Foundation {
+  umbrella header "Pods-Welfar eSupport Foundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
